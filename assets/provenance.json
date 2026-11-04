@@ -1,0 +1,225 @@
+{
+  "retrieved": "2026-11-04",
+  "sourceSite": "https://www.crescentwater.us/",
+  "assets": [
+    {
+      "file": "logo.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/28010efc-7c5c-4d92-87fb-a122432bf311/headline+banner.png",
+      "originalSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1000,
+        333
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "contact-frame.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/03cf8256-b115-42eb-a2c2-9c640d8ed12a/ChatGPT+Image+Aug+22%2C+2026%2C+08_13_13+PM.png",
+      "originalSize": [
+        1672,
+        941
+      ],
+      "size": [
+        1672,
+        941
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "frame.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/ca8a5ad5-6ba2-4614-bf25-207f1a6be083/ChatGPT+Image+Aug+22%2C+2026%2C+08_13_13+PM.png",
+      "originalSize": [
+        1672,
+        941
+      ],
+      "size": [
+        1672,
+        941
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "night-and-day.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/a68ae951-b811-4171-9bbe-8b8eca8cae32/224478C4-7907-4ED8-B4F2-15BF24651CA5.jpeg",
+      "originalSize": [
+        1086,
+        1276
+      ],
+      "size": [
+        1086,
+        1276
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "lawn-care.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/74221ffd-e67b-4eb1-82c4-783a373402d3/A16F7852-D7A7-44E6-B9D1-F9E8770E2821.png",
+      "originalSize": [
+        1141,
+        1378
+      ],
+      "size": [
+        1141,
+        1378
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "lawn-maintenance.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/b083926b-8222-402c-8b0f-49ac1983c0cd/360945D1-AA40-4106-97F2-8E9F39B0DC9A.png",
+      "originalSize": [
+        1448,
+        1086
+      ],
+      "size": [
+        1448,
+        1086
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "residential-properties.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/150f689f-7628-455a-ba5f-00c781cad5b8/254651F6-1DA3-48C0-BA8B-FFFF82485533.png",
+      "originalSize": [
+        1672,
+        941
+      ],
+      "size": [
+        1672,
+        941
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "landscape-work.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/2e8398da-eeef-4b7b-9704-cd3b7f5c118f/IMG_5342.jpeg",
+      "originalSize": [
+        1320,
+        544
+      ],
+      "size": [
+        1320,
+        544
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "property-types.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/6d3ab8f7-844e-4378-8d44-f85b822aa595/ChatGPT+Image+Aug+21%2C+2026%2C+01_38_39+AM.png",
+      "originalSize": [
+        1024,
+        1536
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "residential.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/acecae68-c720-43a9-9da5-893aa9e47c9f/ChatGPT+Image+Aug+23%2C+2026%2C+03_59_23+PM.png",
+      "originalSize": [
+        941,
+        1672
+      ],
+      "size": [
+        941,
+        1672
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "hoa.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/8c518d82-229a-44be-b325-99298773b8c3/ChatGPT+Image+Aug+23%2C+2026%2C+03_59_08+PM.png",
+      "originalSize": [
+        941,
+        1672
+      ],
+      "size": [
+        941,
+        1672
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "services-guide.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/645728e4-a9ec-40c5-814c-f86cec8ae092/ChatGPT+Image+Aug+23%2C+2026%2C+12_02_41+AM.png",
+      "originalSize": [
+        887,
+        1774
+      ],
+      "size": [
+        887,
+        1774
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "local-partners.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/04f8d896-fc7d-4b90-b33e-975a21b054c4/ChatGPT+Image+Sep+4%2C+2026%2C+04_22_35+PM.png",
+      "originalSize": [
+        1145,
+        1373
+      ],
+      "size": [
+        1145,
+        1373
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "farrell-insurance.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/b4e9924b-9f8a-4526-bbec-691b843bd727/IMG_3598.jpeg",
+      "originalSize": [
+        640,
+        960
+      ],
+      "size": [
+        640,
+        960
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "my-optical.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a813ae2a5277f2eefd4e309/eae81c9c-a004-4fcc-8cfb-55d6fd168e22/IMG_4194.jpeg",
+      "originalSize": [
+        1145,
+        1374
+      ],
+      "size": [
+        1145,
+        1374
+      ],
+      "treatment": "Original artwork, resized only where needed and encoded as WebP; no generated replacement."
+    },
+    {
+      "file": "oswald-700.woff2",
+      "source": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/90ab4a5d-8a5b-4f76-b1ac-22b64d8b3e35/latin.woff2",
+      "family": "Oswald",
+      "weight": "700"
+    },
+    {
+      "file": "arimo-700.woff2",
+      "source": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/216d8d4d-0c9b-41ff-bc66-c09bd21e4788/latin.woff2",
+      "family": "Arimo",
+      "weight": "700"
+    },
+    {
+      "file": "oswald-400.woff2",
+      "source": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/c02dd75d-df69-4519-9bfc-eedeadf97567/latin.woff2",
+      "family": "Oswald",
+      "weight": "400"
+    },
+    {
+      "file": "arimo-400.woff2",
+      "source": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/9a761a75-6ac4-4854-a3be-6c5fbd12af01/latin.woff2",
+      "family": "Arimo",
+      "weight": "400"
+    }
+  ]
+}
