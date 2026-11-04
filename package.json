@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node src/build.mjs",
     "check": "node scripts/check-site.mjs",
-    "preview": "node scripts/serve.mjs"
+    "preview": "node scripts/serve.mjs",
+    "publish:github": "node scripts/publish-github.mjs"
   },
   "engines": { "node": ">=22" }
 }

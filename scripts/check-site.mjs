@@ -4,6 +4,9 @@ import { resolve, dirname } from 'node:path';
 
 const root = resolve('dist');
 assert.ok(existsSync(root), 'Build must produce dist/');
+const entry = readFileSync(resolve(root, 'index.html'), 'utf8');
+const inferredBase = entry.match(/href="([^"]*)\/styles\.css"/)?.[1] || '';
+const basePath = (process.env.CRESCENT_BASE_PATH ?? inferredBase).replace(/\/$/, '');
 const routes = ['index.html', 'services/index.html', 'residential-commercial/index.html', 'contact/index.html', 'trusted-p/index.html', 'home-1-1-1/index.html'];
 let links = 0;
 for (const route of routes) {
@@ -16,7 +19,11 @@ for (const route of routes) {
   assert.doesNotMatch(html, /<form\b/, 'Do not ship a contact form without a delivery backend');
   for (const [, target] of html.matchAll(/(?:src|href)="([^"]+)"/g)) {
     if (/^(https?:|mailto:|tel:|#)/.test(target)) continue;
-    const path = target.split('#')[0].split('?')[0];
+    let path = target.split('#')[0].split('?')[0];
+    if (basePath && path.startsWith('/')) {
+      assert.ok(path.startsWith(basePath + '/'), `Link must include GitHub Pages project path: ${target}`);
+      path = path.slice(basePath.length);
+    }
     let local = target.startsWith('/') ? resolve(root, '.' + path) : resolve(dirname(file), path);
     if (existsSync(local) && statSync(local).isDirectory()) local = resolve(local, 'index.html');
     assert.ok(local.startsWith(root), `Link escaped build: ${target}`);

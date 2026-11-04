@@ -3,6 +3,9 @@ import { resolve } from 'node:path';
 import { business as b, services } from './content.mjs';
 
 const out = resolve('dist');
+const basePath = (process.env.CRESCENT_BASE_PATH || '').replace(/\/$/, '');
+if (basePath && !/^\/[a-zA-Z0-9._-]+$/.test(basePath)) throw new Error('Use one project path for CRESCENT_BASE_PATH.');
+const withBasePath = html => basePath ? html.replace(/((?:href|src)=")\/(?!\/)/g, `$1${basePath}/`) : html;
 mkdirSync(out, { recursive: true });
 cpSync('assets', resolve(out, 'assets'), { recursive: true });
 for (const name of ['styles.css', 'site.js']) copyFileSync(resolve('src', name), resolve(out, name));
@@ -33,9 +36,9 @@ function cta() {
   return `<section class="contact-strip container"><div><h2>Your next outdoor project starts here.</h2><p>Tell us what you have in mind. We’ll provide a personalized estimate for your property.</p></div>${quoteButton()}</section>`;
 }
 function layout({ title, description, path, body }) {
-  return `<!doctype html>
+  return withBasePath(`<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#050605"><title>${escape(title)} | Crescent Water Landscaping</title><meta name="description" content="${escape(description)}"><link rel="canonical" href="https://www.crescentwater.us${path}"><link rel="icon" href="/assets/logo.webp" type="image/webp"><link rel="preload" href="/assets/oswald-700.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css"><script src="/site.js" defer></script></head>
-<body><a class="skip-link" href="#main">Skip to content</a>${header(path)}<main id="main">${body}</main>${footer()}</body></html>`;
+<body><a class="skip-link" href="#main">Skip to content</a>${header(path)}<main id="main">${body}</main>${footer()}</body></html>`);
 }
 
 const home = `<section class="hero container" aria-label="Crescent Water Landscaping">

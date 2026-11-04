@@ -23,9 +23,17 @@ Open http://127.0.0.1:4173. The build writes the complete static website to `dis
 - `assets/provenance.json`: original image/font source URLs and processing notes.
 - `scripts/check-site.mjs`: public-route, link, asset, and integration-boundary checks.
 
+## GitHub Pages preview
+
+The review site is published from `main`, repository root, at:
+
+https://jamesshealy109-sudo.github.io/crescentwater.us/
+
+After changing source, run `npm run publish:github` and commit the regenerated root HTML, styles, script, and page directories to `main`. This command builds and checks all links with the `/crescentwater.us/` project prefix. `.nojekyll` makes Pages serve the static files directly. `npm run build` still produces an unprefixed `dist/` for an eventual custom-domain deployment.
+
 ## Migration status
 
-This is a reviewable build. DNS and the live Squarespace website have not changed. Hosting has not been chosen or configured. Google Business Profile and reviews are not connected.
+The GitHub Pages site is a review build. DNS and the live Squarespace website have not changed. Google Business Profile and reviews are not connected.
 
 Quote requests open Crescent Water's existing public Jobber request form. No quote submission has been made during testing. The contact page also provides phone and email links.
 
